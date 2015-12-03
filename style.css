@@ -15,8 +15,8 @@ body{
 
 /*landing page*/
 #KMlogo{
-	width: 90%;
-	margin: 5%;
+	width: 70%;
+	margin:  100px 15% 0;
 
 }
 .button{
@@ -34,8 +34,21 @@ body{
 	float: right;
 }
 /*video page*/
-.charlievideo{}
+#vidlogo{
+	display: block;
+	width: 200px;
+	margin: auto;
 
+}
+#charlievideo{
+	width: 100%;
+	margin-bottom: 50px;
+}
+#vid2info{
+	text-align: center;
+	width: 300px;
+	margin: 0 auto;
+}
 
 
 /*info pace styles*/
