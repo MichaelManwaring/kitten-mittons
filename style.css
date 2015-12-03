@@ -47,9 +47,23 @@ header {
 	font-size: 10px;
 	font-style: italic;
 }
+
 #logo {
 	width: 300px;
 /*	display: inline-block;*/
+}
+
+.image { 
+   position: relative; 
+   width: 100%
+}
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+   color: white;
 }
 
 #page {
@@ -59,10 +73,11 @@ header {
 .charlie{
 	font-size: 15px;
 	width: 80%;
-	border: 10px double #D84826;
+/*	border: 10px double #D84826;*/
 	padding: 20px;
 	margin: 5%;
-	background-color: #CDCAC5;
+/*	background-color: #CDCAC5;*/
+	text-align: justify;
 
 }
 #charliepic {
@@ -79,13 +94,13 @@ header {
 	text-align: justify;
 }
 
-img {
+/*img {
 	width: 100px;
-}
+}*/
 .info {
 	text-align: justify;
-	border: 5px solid #D84826;
-	background-color: #CDCAC5;
+/*	border: 5px solid #D84826;
+	background-color: #CDCAC5;*/
 	float: right;
 	width: 60%;
 	margin-top: 20px;
