@@ -12,12 +12,55 @@
 
 
 /*info pace styles*/
-.page{}
-.charlie{}
-.gallery{}
+header {
+	text-align: center;
+/*	display: inline-block;
+	float: left;*/
+	padding: 50px;
+	font-size: 10px;
+	font-style: italic;
+}
+#logo {
+	width: 300px;
+/*	display: inline-block;*/
+}
+
+#page {
+	width: 900px;
+	margin: 0px auto;
+}
+.charlie{
+	font-size: 15px;
+	width: 90%;
+	border: 10px double #D84826;
+	padding: 20px;
+}
+#charliepic {
+	width: 175px;
+	float: left;
+	padding-right: 10px;
+}
+.gallery{
+	width: 30%;
+	float: left;
+	margin-right: 20px;
+	font-size: 15px;
+	text-align: justify;
+}
+
+img {
+	width: 100px;
+}
+.info {
+	text-align: justify;
+}
+
 #feline{}
+
 .cats{}
-#celeb{}
+
+#celeb{
+}
 .people{}
 .donate{}
 #social{}
