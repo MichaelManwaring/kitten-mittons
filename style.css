@@ -1,11 +1,40 @@
-/*general styles*/
+/*
+Logo Background: #535A60
+Circle Behind Cat: #CDCAC5
+Orange Mittens: #D84826
+Black of the Cat: #231F20
+*/
 
+
+
+/*general styles*/
+body{
+	background-color: #535A60;
+	font: helvetica;
+
+
+}
 
 /*landing page*/
-#KMlogo{}
-.videopage{}
+#KMlogo{
+	width: 90%;
+	margin: 5%;
 
-.infopage{}
+}
+.button{
+	margin: 10px;
+	padding: 10px;
+	font: #D84826 2vw;
+	border: solid #D84826;
+	background-color: #CDCAC5;
+}
+#videopage{
+	float: left;
+}
+
+#infopage{
+	float: right;
+}
 /*video page*/
 .charlievideo{}
 
