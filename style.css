@@ -11,8 +11,6 @@ Black of the Cat: #231F20
 body{
 	background-color: #535A60;
 	font: helvetica;
-
-
 }
 
 /*landing page*/
@@ -60,19 +58,23 @@ header {
 }
 .charlie{
 	font-size: 15px;
-	width: 90%;
+	width: 80%;
 	border: 10px double #D84826;
 	padding: 20px;
+	margin: 5%;
+	background-color: #CDCAC5;
+
 }
 #charliepic {
 	width: 175px;
 	float: left;
 	padding-right: 10px;
 }
-.gallery{
+.gallery {
 	width: 30%;
 	float: left;
-	margin-right: 20px;
+	margin-right: 10px;
+	margin-top: 20px;
 	font-size: 15px;
 	text-align: justify;
 }
@@ -82,14 +84,30 @@ img {
 }
 .info {
 	text-align: justify;
+	border: 5px solid #D84826;
+	background-color: #CDCAC5;
+	float: right;
+	width: 60%;
+	margin-top: 20px;
 }
 
-#feline{}
+#feline{
+	width: 30%;
+}
 
-.cats{}
+.cats{
+	border: 5px solid #D84826;
+	background-color: #CDCAC5;
+}
 
 #celeb{
+	float: right;
 }
 .people{}
 .donate{}
 #social{}
+footer {
+	clear: both;
+	border: 5px solid #D84826;
+	background-color: #CDCAC5;
+}
