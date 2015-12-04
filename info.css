@@ -1,0 +1,95 @@
+/*#FEFEFE*/
+
+header {
+	text-align: center;
+/*	display: inline-block;
+	float: left;*/
+ /*  padding: 50px;*/
+	font-size: 10px;
+	font-style: italic;
+   border: 5px solid #535A60;
+   background-color: #535A60 ;
+   margin-bottom: 10px;
+   border-bottom: 10px solid #D84826;
+}
+
+body{
+   margin: 0;
+}
+
+h1 {
+   margin-bottom: 10px;
+   font-family: helvetica;
+}
+
+.charlie {
+   width: 800px;
+   text-align: justify;
+   margin-left: 230px;
+   margin-right: 10px;
+   padding-top: 25px;
+   border: 1px solid white;
+   background-color: #FEFEFE;
+   display: inline-block;
+   margin-bottom: 10px;
+}
+
+#charliepic {
+   width: 300px;
+/*   height: 400px;*/
+   float: left;
+ }
+
+ #aword {
+   padding-top: 80px;
+   /*padding-left: 20px;*/
+   float: left;
+ }
+
+ #name {
+   float: left;
+ }
+
+#charliewords {
+   float: right;
+   margin-bottom: 20px;
+}
+
+#logo {
+	width: 400px;
+/*	display: inline-block;*/
+}
+
+#cat-img{
+   width: 100%;
+}
+
+#lazycat-img{
+   width: 100%;
+}
+
+#buds-img{
+   width: 100%;
+}
+
+
+.info {
+   width: 800px;
+   font-family: helvetica;
+   text-align: justify;
+   margin-left: 230px;
+}
+
+.story {
+   width: 800px;
+   font-family: helvetica;
+   text-align: justify;
+   margin-left: 230px;
+}
+
+.nav {
+
+   position: fixed;
+   top: 250px;
+   left: 100px;
+}
