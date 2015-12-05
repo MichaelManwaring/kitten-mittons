@@ -97,6 +97,7 @@ h1 {
    top: 250px;
    left: 100px;
 }
+<<<<<<< HEAD
 .gallery {
    width: 900px;
    margin: 5% auto;
@@ -189,5 +190,15 @@ footer{
 }
 #blogo{
    background-color: #535A60 ;
+}
+
+#meow {
+   float: left;
+   width: 150px;
+}
+
+#hover:hover {
+   font-size: 20px;
+   color: #D84826;
 
 }
