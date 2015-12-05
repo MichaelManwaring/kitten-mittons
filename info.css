@@ -101,3 +101,9 @@ h1 {
    float: left;
    width: 150px;
 }
+
+#hover:hover {
+   font-size: 20px;
+   color: #D84826;
+
+}
