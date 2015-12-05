@@ -96,3 +96,8 @@ h1 {
    top: 250px;
    left: 100px;
 }
+
+#meow {
+   float: left;
+   width: 150px;
+}
