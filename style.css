@@ -50,7 +50,7 @@ body{
 	margin: 0 auto;
 }
 
-
+/*/*/*
 /*gallery page styles*/
 header {
 	text-align: center;
@@ -60,15 +60,47 @@ header {
 	font-size: 10px;
 	font-style: italic;
 }
+
 #logo {
 	width: 300px;
 /*	display: inline-block;*/
 }
 
+.image { 
+   position: relative; 
+   width: 100%
+}
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+   color: white;
+}
+
 #page {
 	width: 900px;
 	margin: 0px auto;
+<<<<<<< HEAD
 	text-align: center;
+=======
+}
+.charlie{
+	font-size: 15px;
+	width: 80%;
+/*	border: 10px double #D84826;*/
+	padding: 20px;
+	margin: 5%;
+/*	background-color: #CDCAC5;*/
+	text-align: justify;
+
+}
+#charliepic {
+	width: 175px;
+	float: left;
+	padding-right: 10px;
+>>>>>>> 16ffbf1d8fbe8cd5896c4792b131d2010e5bf087
 }
 .gallery {
 	width: 900px;
@@ -79,6 +111,7 @@ header {
 	border: 5px solid #D84826;
 	border-radius: 10px;
 }
+
 
 .gallery>h2{
 	border: 5px solid #D84826;
@@ -93,6 +126,12 @@ header {
 	clear: both;
 	border: 5px solid #D84826;
 	background-color: #CDCAC5;
+	width: 100px;
+}
+.info {
+	text-align: justify;
+/*	border: 5px solid #D84826;
+	background-color: #CDCAC5;*/
 	float: right;
 	width: 60%;
 	margin-top: 20px;
@@ -151,4 +190,5 @@ footer {
 	clear: both;
 	border: 5px solid #D84826;
 	background-color: #CDCAC5;
-}
+}*/*/
+*/
