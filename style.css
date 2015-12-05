@@ -19,6 +19,7 @@ body{
 	margin:  100px 15% 0;
 }
 .button{
+	border-radius: 8px;
 	margin: 10px;
 	padding: 10px;
 	font: #D84826 2vw;
@@ -64,14 +65,15 @@ header {
 /*	display: inline-block;*/
 }
 
-/*#page {
+#page {
 	width: 900px;
 	margin: 0px auto;
-}*/
+	text-align: center;
+}
 .gallery {
-	width: 90%;
+	width: 900px;
 	float: left;
-	margin: 5%;
+	margin: 5% auto;
 	font-size: 15px;
 	text-align: justify;
 	border: 5px solid #D84826;
@@ -97,7 +99,6 @@ header {
 }
 
 #feline{
-
 }
 
 .cats{
@@ -107,19 +108,22 @@ header {
 	float: left;
 	width: 30%;
 	margin: 1%;
-
+	height: 300px;
+	text-align: center;
 }
 .cats>img{
-	height: 100px;
+	height: 150px;
 	margin: 2%;
-
+	
 }
 .cats>h1{
-	float: right;
+	
 	margin: 5px;
-	font-size: 1em;
+	font-size: 1.5em;
+	clear: both;
 }
 .cats>p{
+	clear: left;
 	margin: 1em;
 }
 .people>img{
