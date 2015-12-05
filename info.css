@@ -97,7 +97,7 @@ h1 {
    top: 250px;
    left: 100px;
 }
-<<<<<<< HEAD
+
 .gallery {
    width: 900px;
    margin: 5% auto;
@@ -189,7 +189,7 @@ footer{
    text-align:center;
 }
 #blogo{
-   background-color: #535A60 ;
+   background-color: #535A60;
 }
 
 #meow {
@@ -201,4 +201,19 @@ footer{
    font-size: 20px;
    color: #D84826;
 
+}
+
+#donatebar{
+   border:none;
+}
+#apply, #donate{
+   height: 140px;
+   font-weight: bold;
+   margin: 5%;
+}
+#apply{
+   float: right;
+}
+#donate{
+   float: left;
 }
