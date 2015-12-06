@@ -15,6 +15,7 @@ header {
 
 body{
    margin: 0;
+
 }
 
 h1 {
@@ -97,6 +98,100 @@ h1 {
    left: 100px;
 }
 
+.gallery {
+   width: 900px;
+   margin: 5% auto;
+   font-size: 15px;
+   text-align: justify;
+   border: 5px solid #D84826;
+   border-radius: 10px;
+   background-color: #535A60 ;
+}
+
+
+.gallery>h2{
+   border: 5px solid #D84826;
+   border-radius: 10px;
+   background-color: #CDCAC5;
+   width: 80%;
+   margin: 1% 10%;
+   text-align: center;
+   font-size: 3em;
+}
+.cats{
+   border: 5px solid #D84826;
+   border-radius: 10px;
+   background-color: #CDCAC5;
+   float: left;
+   width: 30%;
+   margin: 1%;
+   height: 350px;
+   text-align: center;
+}
+.cats>img{
+   height: 150px;
+   margin: 2%;
+   
+}
+.cats>h1{
+   
+   margin: 5px;
+   font-size: 1.5em;
+   clear: both;
+}
+.cats>p{
+   clear: left;
+   margin: 1em;
+}
+.people>img{
+   width: 80%;
+   margin: 0 10%;
+}
+.people>h1{
+   font-size: 1em;
+}
+.people{
+   border: 5px solid #D84826;
+   border-radius: 10px;
+   background-color: #CDCAC5;
+   float: left;
+   margin: 1%;
+   text-align: center;
+   width: 190px;
+}
+.social{
+   width: 80%;
+   margin: 10%;
+   text-align: center;
+ 
+
+
+
+}
+.social>a>img{
+   width: 10%;
+   margin: 2%;
+}
+.social>h1{
+   width: 50%;
+   margin: 5% 25%;
+   border: 5px solid #D84826;
+   border-radius: 10px;
+   background-color: #CDCAC5;
+   font-size: 2vw;
+}
+.social>h1>img{
+   width: 80%;
+   margin: 10%;
+}
+footer{
+   width: 100%;
+   text-align:center;
+}
+#blogo{
+   background-color: #535A60;
+}
+
 #meow {
    float: left;
    width: 150px;
@@ -106,4 +201,19 @@ h1 {
    font-size: 20px;
    color: #D84826;
 
+}
+
+#donatebar{
+   border:none;
+}
+#apply, #donate{
+   height: 140px;
+   font-weight: bold;
+   margin: 5%;
+}
+#apply{
+   float: right;
+}
+#donate{
+   float: left;
 }
