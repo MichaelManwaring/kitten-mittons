@@ -17,9 +17,9 @@ body{
 #KMlogo{
 	width: 70%;
 	margin:  100px 15% 0;
-
 }
 .button{
+	border-radius: 8px;
 	margin: 10px;
 	padding: 10px;
 	font: #D84826 2vw;
@@ -50,8 +50,8 @@ body{
 	margin: 0 auto;
 }
 
-
-/*info pace styles*/
+/*/*/*
+/*gallery page styles*/
 header {
 	text-align: center;
 /*	display: inline-block;
@@ -82,6 +82,9 @@ h2 {
 #page {
 	width: 900px;
 	margin: 0px auto;
+<<<<<<< HEAD
+	text-align: center;
+=======
 }
 .charlie{
 	font-size: 15px;
@@ -97,19 +100,34 @@ h2 {
 	width: 175px;
 	float: left;
 	padding-right: 10px;
+>>>>>>> 16ffbf1d8fbe8cd5896c4792b131d2010e5bf087
 }
 .gallery {
-	width: 30%;
+	width: 900px;
 	float: left;
-	margin-right: 10px;
-	margin-top: 20px;
+	margin: 5% auto;
 	font-size: 15px;
 	text-align: justify;
+	border: 5px solid #D84826;
+	border-radius: 10px;
 }
 
-/*img {
+
+.gallery>h2{
+	border: 5px solid #D84826;
+	border-radius: 10px;
+	background-color: #CDCAC5;
+	width: 80%;
+	margin: 1% 10%;
+	text-align: center;
+	font-size: 3em;
+}
+.donatebar {
+	clear: both;
+	border: 5px solid #D84826;
+	background-color: #CDCAC5;
 	width: 100px;
-}*/
+}
 .info {
 	text-align: justify;
 /*	border: 5px solid #D84826;
@@ -120,22 +138,57 @@ h2 {
 }
 
 #feline{
-	width: 30%;
 }
 
 .cats{
 	border: 5px solid #D84826;
+	border-radius: 10px;
 	background-color: #CDCAC5;
+	float: left;
+	width: 30%;
+	margin: 1%;
+	height: 350px;
+	text-align: center;
+}
+.cats>img{
+	height: 150px;
+	margin: 2%;
+	
+}
+.cats>h1{
+	
+	margin: 5px;
+	font-size: 1.5em;
+	clear: both;
+}
+.cats>p{
+	clear: left;
+	margin: 1em;
+}
+.people>img{
+	width: 80%;
+	margin: 0 10%;
+}
+.people>h1{
+	font-size: 1em;
+}
+.people{
+	border: 5px solid #D84826;
+	border-radius: 10px;
+	background-color: #CDCAC5;
+	float: left;
+	margin: 1%;
+	text-align: center;
+	width: 170px;
 }
 
-#celeb{
+#donate{
 	float: right;
 }
-.people{}
-.donate{}
 #social{}
 footer {
 	clear: both;
 	border: 5px solid #D84826;
 	background-color: #CDCAC5;
-}
+}*/*/
+*/
